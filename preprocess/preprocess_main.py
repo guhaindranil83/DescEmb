@@ -20,8 +20,8 @@ def get_parser():
                         choices=['lab', 'med', 'inf'], default=['lab', 'med', 'inf']
                         )
     parser.add_argument('--target_tasks', nargs="+", 
-                        choices=['mortality', 'readmission', 'los_3day', 'los_7day', 'diagnosis'], 
-                        default=['mortality', 'readmission', 'los_3day', 'los_7day', 'diagnosis']
+                        choices=['mortality', 'readmission', 'los_3day', 'los_7day'], 
+                        default=['mortality', 'readmission', 'los_3day', 'los_7day']
                         )
     parser.add_argument('--seeds', nargs="+", 
                         default=[1])

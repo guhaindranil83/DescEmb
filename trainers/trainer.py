@@ -165,6 +165,12 @@ class Trainer(object):
                         probs_train = torch.sigmoid(logits).cpu().numpy()
                         preds_train += list(probs_train.flatten())
 
+            print('truths_train.....')
+            print(truths_train)
+
+            print('preds_train.....')
+            print(preds_train)
+
             avg_train_loss = total_train_loss / len(self.data_loaders['train'])
             if self.task not in ['mlm', 'w2v']:
                 auroc_train = roc_auc_score(truths_train, preds_train)
@@ -220,8 +226,15 @@ class Trainer(object):
                         preds_valid += list(probs_valid.flatten())
 
             avg_valid_loss = total_valid_loss / len(self.data_loaders[subset])
+            
+            print('truths_valid.....')
+            print(truths_valid)
+
+            print('preds_valid.....')
+            print(preds_valid)
+
             if self.task not in ['mlm', 'w2v']:
-                auroc_valid = roc_auc_score(truths_valid, preds_valid)
+                ##auroc_valid = roc_auc_score(truths_valid, preds_valid)
                 auprc_valid = average_precision_score(truths_valid, preds_valid, average='micro')
 
             with rename_logger(logger, subset):
