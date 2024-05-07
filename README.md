@@ -3,7 +3,7 @@
 ***Team 41***
 
 Indranil Guha| Iguha4@illinois.edu  
-Snehangshu Bhattacharjee | sb8@illinois.edu
+Snehangshu Bhattacharjee | ssb8@illinois.edu
 
 
 ***Project Report***
