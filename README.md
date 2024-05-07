@@ -6,13 +6,11 @@ Indranil Guha| Iguha4@illinois.edu
 Snehangshu Bhattacharjee | sb8@illinois.edu
 
 
-
 ***Project Report***
 
 https://github.com/guhaindranil83/DescEmb/blob/master/Team_41_Final_Report.ipynb
 
 
+***Project Demo Video***
 
-***Project Video***
-
-Video link
+https://youtu.be/55bUz7GQFSQ?si=u91KyHJxiRPFUnq7
