@@ -6,7 +6,7 @@ Indranil Guha| Iguha4@illinois.edu
 Snehangshu Bhattacharjee | ssb8@illinois.edu
 
 
-***Project Report***
+***Project Colab NoteBook***
 
 https://github.com/guhaindranil83/DescEmb/blob/master/Team_41_Final_Report.ipynb
 
