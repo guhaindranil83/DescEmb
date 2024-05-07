@@ -12,6 +12,7 @@ https://github.com/guhaindranil83/DescEmb/blob/master/Team_41_Final_Report.ipynb
 
 ***Project Report***
 
+https://github.com/guhaindranil83/DescEmb/blob/master/Team_41_Final_Report.pdf
 
 ***Project Demo Video***
 
